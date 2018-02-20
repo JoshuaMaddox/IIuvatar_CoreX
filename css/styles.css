@@ -1,0 +1,174 @@
+
+
+/* ILLUVATAR COLOR CODES
+
+IILUVATAR DARK BLUE: #0054a6;
+IILUVATAR LIGHT BLUE: #00aeef;
+
+
+*/
+
+.background-image {
+  background-image: url('file:///Users/HomeFolder/code/iiluvatar-corex/img/hero_image.jpg'); 
+  background-size: cover;
+  /*background: -webkit-linear-gradient(to right bottom, #00aeef, #0054a6);  
+  background: linear-gradient(to right bottom, #00aeef, #0054a6); */
+  padding: 3em;
+}
+
+.iiluvatar-nav-line {
+  border-bottom: 1px solid white;
+  margin-top: 1em;
+  width: 97%;
+  margin-bottom: 3.5em;
+  opacity: .5;
+}
+
+
+/*---IILUVATAR TYPOGRAPHY--*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Ubuntu, Sans Serif;
+  font-weight: 300 !important; 
+}
+
+/*--- ILUVATAR CARD ---*/
+
+.iluvatar-card {
+  background-color: #fff;
+  padding: 1em;
+  margin: 2%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/*-- IILUVATAR HELPER CLASSES --*/
+
+.iiluvatar--lblue--helper,
+.illuvatar--lblue-background--helper {
+  color: #00aeef !important;
+}
+
+.iiluvatar--dblue--helper {
+  color: #0054a6 !important;
+}
+
+.iiluvatar--white--helper {
+  color: #fff !important;
+}
+
+.illuvatar--lblue-background--helper {
+  background-color: #0054a6;
+}
+
+.illuvatar--margin-bottom--helper {
+  margin-bottom: 3.5em;
+}
+
+.illuvatar--margin-top--helper {
+  margin-top: 3.5em;
+}
+
+.btn.illuvatar--hero-btn--helper {
+  background-color: #0054a6;
+  width: 60%;
+  border: none;
+  color: #fff;
+}
+
+.btn.illuvatar--hero-btn--helper:hover,
+.btn.illuvatar--hero-btn--helper:active {
+  background-color: #fff;
+  color: #0054a6;
+}
+
+.iluvatar--image--helper {
+  width: 80%;
+  margin-top: 3em;
+}
+
+.iluvatar--header-weight--helper {
+  font-weight: 700 !important;
+}
+
+.iluvatar--gradient--helper {
+  background: linear-gradient(to right bottom, #00aeef, #0054a6); 
+}
+.iluvatar--padding-top--helper {
+  padding-top: 3em;
+}
+.iluvatar--padding-bottom--helper {
+  padding-bottom: 3em;
+}
+
+.iluvatar--card--helper {
+  max-width: 250px;
+}
+
+
+
+/*-- IILUVATAR BOOTSTRAP OVERRIDES --*/ 
+
+.navbar-nav a {
+  color: #fff !important;
+  font-family: Ubuntu, Sans Serif;
+}
+
+button.navbar-toggler {
+  background-color: #fff;
+}
+
+.span.navbar-toggler-icon {
+  color:  #0054a6 !important;
+}
+
+/* Mobile Landscape Screen Sizes */
+@media only screen and (min-width: 480px)  {
+  .btn.illuvatar--hero-btn--helper {
+    width: 50%;
+  }
+  .iiluvatar-nav-line {
+    margin-bottom: 5em; 
+  }
+  .illuvatar--margin-bottom--helper {
+    margin-bottom: 5em; 
+  }
+  .illuvatar--margin-top--helper {
+    margin-top: 5em;
+  }
+  
+  .iluvatar--image--helper {
+    width: 70%;
+  }
+  .iluvatar--card--helper {
+    max-width: 250px;
+  }
+
+}
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+  .btn.illuvatar--hero-btn--helper {
+    width: 20%;
+  } 
+
+  .iiluvatar-nav-line {
+    margin-bottom: 7em; 
+  }
+
+  .illuvatar--margin-bottom--helper {
+    margin-bottom: 7em; 
+  }
+  .illuvatar--margin-top--helper {
+    margin-top: : 7em;
+  }
+
+  .iluvatar--image--helper {
+    width: 50%;
+  }
+  .iluvatar--card--helper {
+    max-width: 220px;
+  }
+}
