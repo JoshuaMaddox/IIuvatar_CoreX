@@ -107,6 +107,50 @@ h6 {
 .iluvatar--card--helper {
   max-width: 250px;
 }
+.iluvatar--padding--helper {
+  padding: 1em;
+}
+.iluvatar--city-name--helper {
+  padding:.5em 0;
+  color: #fff !important;
+  background-color: #0054a6;
+  margin-bottom: 1em;
+}
+
+.iluvatar--city-name--helper h4 {
+  margin-bottom: 0;
+}
+
+.iluvatar--address--helper {
+  font-size: 11px;
+  font-weight: 700;
+  color: #00aeef;
+  padding: 0 10px; 
+}
+
+.iluvatar--footer--menu {
+  margin-bottom: 0;
+}
+
+
+.iluvatar--footer--menu a {
+  color: #fff;
+  padding: 15px;
+}
+
+.iluvatar--footer--menu a:hover {
+  color: #0054a6;
+  text-decoration: none;
+}
+
+.iluvatar--footer-menu-link--padding {
+  padding-bottom: 1.5em;
+}
+
+.iluvatar--copyright--helper {
+  font-size: 10px;
+  font-weight: 700;
+}
 
 
 
@@ -146,7 +190,9 @@ button.navbar-toggler {
   .iluvatar--card--helper {
     max-width: 250px;
   }
-
+  .iluvatar--padding--helper {
+    padding: 1.5em;
+  }
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
@@ -171,4 +217,12 @@ button.navbar-toggler {
   .iluvatar--card--helper {
     max-width: 220px;
   }
+  .iluvatar--padding--helper {
+    padding: 2em;
+  }
+
+  .iluvatar--footer--menu a {
+    margin-bottom: 25px;
+  }
+
 }
